@@ -48,3 +48,7 @@ levels(totaldata$activity) <- activityname   # change activity numbers to descri
 
 averagetidy <- ddply(totaldata, .(subject,activity), numcolwise(mean))
 names(averagetidy)[3:81] <- paste0("average",names(averagetidy)[3:81])   # change the names of variables
+
+## output
+
+write.table(averagetidy,"average.txt",row.names=F)
