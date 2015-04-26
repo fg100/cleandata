@@ -36,9 +36,11 @@ Codebook
 *"timegravityaccstdx"
 
  average standard deviation of time-domain X-axis gravity accelerometer signal
+
 *"timegravityaccstdy"
 
  average standard deviation of time-domain Y-axis gravity accelerometer signal
+ 
 *"timegravityaccstdz"
 
  average standard deviation of time-domain Z-axis gravity accelerometer signal
