@@ -1,9 +1,10 @@
 Codebook
 * "subject"
- subject number
+
+  subject number
 * "activity"
- activity names - 6 labels
- "walking","walkingupstairs","walkingdownstairs","sitting","standing","laying"
+  activity names - 6 labels
+  "walking","walkingupstairs","walkingdownstairs","sitting","standing","laying"
 * "timebodyaccmeanx"
  average value of mean time-domain X-axis body accelerometer signal 
 * "timebodyaccmeany"
